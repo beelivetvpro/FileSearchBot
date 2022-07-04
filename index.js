@@ -40,7 +40,7 @@ bot.start(async (ctx) => {
             })
         } else {
             joinedState = true
-            ctx.reply('<b>Here you can search files in Inline mode as well as PM, Use the below buttons to search file uploaded by our Team ..</b>', {
+            ctx.reply('<b>Here you can search best porn videos uploaded by our team </b>', {
                 parse_mode: 'HTML',
                 reply_markup: {
                     inline_keyboard: [
@@ -63,7 +63,7 @@ bot.start(async (ctx) => {
 
     //checking if admin and providing admin keyboard to manage requests,help etc
     if (ctx.from.id == process.env.ADMIN) {
-        return await ctx.reply('🙋 Hello my Admin, I am File Store Bot - I can Help you to upload/search files via inline mode . \nPowered By @DevelopedBots 💖', Markup.keyboard(
+        return await ctx.reply('🙋 Hello my Admin, I am File Store Bot - I can Help you to upload/search files via inline mode . \nPowered By X4NEt 💖', Markup.keyboard(
             [
                 ['🤖 Statics','❓Help'],
                 ['👥 Requests'],
