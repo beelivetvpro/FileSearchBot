@@ -40,7 +40,7 @@ bot.start(async (ctx) => {
             })
         } else {
             joinedState = true
-            ctx.reply('<b>Here you can search files in Inline mode as well as PM, Use the below buttons to search file uploaded by our Team ..</b>', {
+            ctx.reply('<b>Here You Can Watch Best Sex Files, Search Buy typing something below.. </b>', {
                 parse_mode: 'HTML',
                 reply_markup: {
                     inline_keyboard: [
